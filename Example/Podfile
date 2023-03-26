@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'KwiksSystemsPopups_Example' do
+  pod 'KwiksSystemsPopups', :path => '../'
+
+  target 'KwiksSystemsPopups_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
