@@ -48,19 +48,21 @@ public class KwiksSystemPopups : NSObject {
     public var popupType: PopupType?
     public var popupFinalHeight = 0.0
     
-    public var screenHeight : CGFloat = 0.0,
-        screenWidth : CGFloat = 0.0,
-        smokeScreen : UIView = {
+    var screenHeight : CGFloat = 0.0,
+        screenWidth : CGFloat = 0.0
+    
+      lazy var smokeScreen : UIView = {
         
         let ss = UIView()
         ss.translatesAutoresizingMaskIntoConstraints = true
         ss.backgroundColor = ColorKit().kwiksSmokeColor.withAlphaComponent(0.6)
         ss.alpha = 0.0
-        
+        ss.isUserInteractionEnabled = true
+
        return ss
     }()
     
-    public let headerIcon : UIImageView = {
+    let headerIcon : UIImageView = {
         
         let dcl = UIImageView()
         dcl.translatesAutoresizingMaskIntoConstraints = false
@@ -72,7 +74,7 @@ public class KwiksSystemPopups : NSObject {
         return dcl
     }()
     
-    public var headerLabel : UILabel = {
+    var headerLabel : UILabel = {
         
         let hfl = UILabel()
         hfl.translatesAutoresizingMaskIntoConstraints = false
@@ -84,7 +86,7 @@ public class KwiksSystemPopups : NSObject {
         return hfl
     }()
     
-    public var subHeaderLabel : UILabel = {
+    var subHeaderLabel : UILabel = {
         
         let hfl = UILabel()
         hfl.translatesAutoresizingMaskIntoConstraints = false
@@ -96,8 +98,8 @@ public class KwiksSystemPopups : NSObject {
         return hfl
     }()
     
-    public lazy var confirmationButton : UIButton = {
-        
+    lazy var confirmationButton : UIButton = {
+
         let cbf = UIButton(type: .system)
         cbf.translatesAutoresizingMaskIntoConstraints = false
         cbf.titleLabel?.adjustsFontSizeToFitWidth = true
@@ -107,6 +109,9 @@ public class KwiksSystemPopups : NSObject {
         cbf.tintColor = UIColor .black
         cbf.layer.cornerRadius = 9
         cbf.alpha = 0.0
+        cbf.isEnabled = true
+        cbf.isUserInteractionEnabled = true
+        cbf.layer.zPosition = 100
 
         return cbf
         
@@ -392,9 +397,6 @@ public class KwiksSystemPopups : NSObject {
     
     public func runLogic(root : UIViewController) {
 
-        //this is failing here
-        self.confirmationButton.addTarget(self, action: #selector(self.handleAction(sender:)), for: .touchUpInside)
-
         let baselineHeight = 325.0
     
         let textToSize = self.subHeaderLabel.text ?? "",
@@ -417,7 +419,7 @@ public class KwiksSystemPopups : NSObject {
             UIView.animate(withDuration: 0.2, delay: 0, options: .curveEaseIn) {
                 self.confirmationButton.alpha = 1.0
             } completion: { complete in
-                print("DONE")
+                self.confirmationButton.addTarget(self, action: #selector(self.handleAction(sender:)), for: .touchUpInside)
             }
         }
     }
@@ -538,10 +540,8 @@ public class KwiksSystemPopups : NSObject {
     }
     
     public func loadFonts(completion : @escaping(_ complete : Bool) -> () ) {
-        if let checkMe = UIFont(name: FontKit().segoeRegular, size: 16) {
-            print("CHECK ME IN HERE: \(checkMe)")
+        if let _ = UIFont(name: FontKit().segoeRegular, size: 16) {
             completion(true)
-            //nil check to see if fonts were loaded into the system yet
         } else {
             registerFont(with: "SegoeBoldItalic.ttf")
             registerFont(with: "SegoeBold.ttf")
@@ -554,23 +554,5 @@ public class KwiksSystemPopups : NSObject {
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
-    }
-}
-
-class RandomClass: Any { }
-extension UIImage {
-    convenience init?(fromPodAssetName name: String) {
-        let bundle = Bundle(for: KwiksSystemPopups.self)
-        self.init(named: name, in: bundle, compatibleWith: nil)
-    }
-}
-
-private final class BundleToken {}
-func registerFont(with fontName: String) {
-    guard let url = Bundle(identifier: "org.cocoapods.KwiksSystemPopups")!
-          .url(forResource: fontName, withExtension: nil),
-          CTFontManagerRegisterFontsForURL(url as CFURL, .process, nil) else {
-        print("FAILED TO LOAD FONTS")
-        return
     }
 }

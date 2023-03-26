@@ -7,174 +7,95 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BBB3D36BC5B2802222A2FA1F56CDBCE /* KwiksSystemsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDB543B2402A2119D75982D721DF3D1 /* KwiksSystemsHelper.swift */; };
+		2F7B239B55EE1BE3E1B412D49AC70247 /* SegoeBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 637F9F9119654568D6AC0370239B9F53 /* SegoeBoldItalic.ttf */; };
 		369A34BCCC93EFEF1139E522DD617F8E /* Pods-KwiksSystemsPopups_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 369CD498FDB1451E8F4AAB2650CD0DBC /* Pods-KwiksSystemsPopups_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A666401E62F4061BA0429BDD2A37AF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		98F5DD83454E439ADE613AB20024EA5D /* KwiksSystemsPopups-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FEC3F758602BAF482F76866F4669ED /* KwiksSystemsPopups-dummy.m */; };
-		A046738811F4C687874D2F8C264ECBB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3801D749EE243B97C085B835C525810D /* KwiksSystemsPopups.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4643161CF66BB0773DD2B1DF1932CB9 /* KwiksSystemsPopups.swift */; };
+		587182389644F0E57DB480BFF1B9305E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		6EEA6E57DFABF4EF50CAD091D11EA38C /* SegoeBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E01A6CC99EBA8B4A1126463351951B37 /* SegoeBold.ttf */; };
+		829EDEB0CED31EE5A0B874A13A4A42FE /* KwiksSystemsPopups-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B03AF78051907C25931A72319A761CB8 /* KwiksSystemsPopups-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A046738811F4C687874D2F8C264ECBB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		A0BB5417D9AA4F3AC77D8D7B2F660EAA /* Pods-KwiksSystemsPopups_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8225FED542FAEC4494596DF7EA72FEA /* Pods-KwiksSystemsPopups_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A74DFA8607972336EB0193D1EAB5A88F /* KwiksSystemsPopups-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 446E8DDDE9419FAEF2A0DCB687081C12 /* KwiksSystemsPopups-dummy.m */; };
+		C4DA21DB4462FE654B7660B227249C42 /* SegoeRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A9F779C762DA8A27C610E2962F78963 /* SegoeRegular.ttf */; };
+		C5CA11C28203C222EB58CC914494420D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		CF1FD2E9757DD4DC5A38BDD74AC3C8F1 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0645D21C8C2165CA34F03DE953A064A /* Media.xcassets */; };
 		D1B1025978E841CF6AC0E566E1DBC372 /* Pods-KwiksSystemsPopups_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8049C016703F1A304353B17E6BE44A9D /* Pods-KwiksSystemsPopups_Example-dummy.m */; };
-		D8FB7D261F4AC85CEAC749563D667836 /* KwiksSystemsPopups-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C5D0D8B2386D9C323BFCBC31696A7B /* KwiksSystemsPopups-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E34A522429D0A46C001CFECF /* KwiksSystemsPopups.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34A522329D0A46C001CFECF /* KwiksSystemsPopups.swift */; };
-		E34A522629D0A484001CFECF /* KwiksSystemsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34A522529D0A484001CFECF /* KwiksSystemsHelper.swift */; };
-		E34A522829D0A4D7001CFECF /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34A522729D0A4D7001CFECF /* Media.xcassets */; };
-		E34A522D29D0A50F001CFECF /* SegoeItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E34A522929D0A50F001CFECF /* SegoeItalic.ttf */; };
-		E34A522E29D0A50F001CFECF /* SegoeBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E34A522A29D0A50F001CFECF /* SegoeBold.ttf */; };
-		E34A522F29D0A50F001CFECF /* SegoeBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E34A522B29D0A50F001CFECF /* SegoeBoldItalic.ttf */; };
-		E34A523029D0A50F001CFECF /* SegoeRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E34A522C29D0A50F001CFECF /* SegoeRegular.ttf */; };
-		E34A525E29D0A52C001CFECF /* money_wallet_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A523129D0A52A001CFECF /* money_wallet_icon@2x.png */; };
-		E34A525F29D0A52C001CFECF /* phone_number_verified_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A523229D0A52A001CFECF /* phone_number_verified_icon@3x.png */; };
-		E34A526029D0A52C001CFECF /* sound_broken_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A523329D0A52A001CFECF /* sound_broken_icon@2x.png */; };
-		E34A526129D0A52C001CFECF /* phone_not_verified@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A523429D0A52A001CFECF /* phone_not_verified@3x.png */; };
-		E34A526229D0A52C001CFECF /* card_not_supported_icon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A523529D0A52A001CFECF /* card_not_supported_icon@1x.png */; };
-		E34A526329D0A52C001CFECF /* email_verified_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A523629D0A52A001CFECF /* email_verified_icon@2x.png */; };
-		E34A526429D0A52C001CFECF /* file_icon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A523729D0A52B001CFECF /* file_icon@1x.png */; };
-		E34A526529D0A52C001CFECF /* card_not_supported_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A523829D0A52B001CFECF /* card_not_supported_icon@2x.png */; };
-		E34A526629D0A52C001CFECF /* phone_not_verified@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A523929D0A52B001CFECF /* phone_not_verified@1x.png */; };
-		E34A526729D0A52C001CFECF /* upload_cloud_icon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A523A29D0A52B001CFECF /* upload_cloud_icon@1x.png */; };
-		E34A526829D0A52C001CFECF /* email_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A523B29D0A52B001CFECF /* email_icon@3x.png */; };
-		E34A526929D0A52C001CFECF /* hard_fail_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A523C29D0A52B001CFECF /* hard_fail_icon@2x.png */; };
-		E34A526A29D0A52C001CFECF /* hard_fail_icon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A523D29D0A52B001CFECF /* hard_fail_icon@1x.png */; };
-		E34A526B29D0A52C001CFECF /* hard_fail_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A523E29D0A52B001CFECF /* hard_fail_icon@3x.png */; };
-		E34A526C29D0A52C001CFECF /* email_icon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A523F29D0A52B001CFECF /* email_icon@1x.png */; };
-		E34A526D29D0A52C001CFECF /* email_not_verified_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A524029D0A52B001CFECF /* email_not_verified_icon@2x.png */; };
-		E34A526E29D0A52C001CFECF /* file_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A524129D0A52B001CFECF /* file_icon@3x.png */; };
-		E34A526F29D0A52C001CFECF /* download_cloud_icon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A524229D0A52B001CFECF /* download_cloud_icon@1x.png */; };
-		E34A527029D0A52C001CFECF /* phone_number_verified_icon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A524329D0A52B001CFECF /* phone_number_verified_icon@1x.png */; };
-		E34A527129D0A52D001CFECF /* sound_broken_icon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A524429D0A52B001CFECF /* sound_broken_icon@1x.png */; };
-		E34A527229D0A52D001CFECF /* warning_hollow_icon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A524529D0A52B001CFECF /* warning_hollow_icon@1x.png */; };
-		E34A527329D0A52D001CFECF /* email_not_verified_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A524629D0A52B001CFECF /* email_not_verified_icon@3x.png */; };
-		E34A527429D0A52D001CFECF /* warning_hollow_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A524729D0A52B001CFECF /* warning_hollow_icon@3x.png */; };
-		E34A527529D0A52D001CFECF /* download_cloud_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A524829D0A52B001CFECF /* download_cloud_icon@2x.png */; };
-		E34A527629D0A52D001CFECF /* email_not_verified_icon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A524929D0A52B001CFECF /* email_not_verified_icon@1x.png */; };
-		E34A527729D0A52D001CFECF /* incorrect_password_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A524A29D0A52B001CFECF /* incorrect_password_icon@3x.png */; };
-		E34A527829D0A52D001CFECF /* k_logo_rounded@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A524B29D0A52B001CFECF /* k_logo_rounded@3x.png */; };
-		E34A527929D0A52D001CFECF /* phone_not_verified@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A524C29D0A52C001CFECF /* phone_not_verified@2x.png */; };
-		E34A527A29D0A52D001CFECF /* warning_hollow_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A524D29D0A52C001CFECF /* warning_hollow_icon@2x.png */; };
-		E34A527B29D0A52D001CFECF /* sound_broken_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A524E29D0A52C001CFECF /* sound_broken_icon@3x.png */; };
-		E34A527C29D0A52D001CFECF /* money_wallet_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A524F29D0A52C001CFECF /* money_wallet_icon@3x.png */; };
-		E34A527D29D0A52D001CFECF /* email_verified_icon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A525029D0A52C001CFECF /* email_verified_icon@1x.png */; };
-		E34A527E29D0A52D001CFECF /* incorrect_password_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A525129D0A52C001CFECF /* incorrect_password_icon@2x.png */; };
-		E34A527F29D0A52D001CFECF /* upload_cloud_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A525229D0A52C001CFECF /* upload_cloud_icon@2x.png */; };
-		E34A528029D0A52D001CFECF /* file_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A525329D0A52C001CFECF /* file_icon@2x.png */; };
-		E34A528129D0A52D001CFECF /* email_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A525429D0A52C001CFECF /* email_icon@2x.png */; };
-		E34A528229D0A52D001CFECF /* card_not_supported_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A525529D0A52C001CFECF /* card_not_supported_icon@3x.png */; };
-		E34A528329D0A52D001CFECF /* download_cloud_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A525629D0A52C001CFECF /* download_cloud_icon@3x.png */; };
-		E34A528429D0A52D001CFECF /* email_verified_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A525729D0A52C001CFECF /* email_verified_icon@3x.png */; };
-		E34A528529D0A52D001CFECF /* upload_cloud_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A525829D0A52C001CFECF /* upload_cloud_icon@3x.png */; };
-		E34A528629D0A52D001CFECF /* money_wallet_icon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A525929D0A52C001CFECF /* money_wallet_icon@1x.png */; };
-		E34A528729D0A52D001CFECF /* incorrect_password_icon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A525A29D0A52C001CFECF /* incorrect_password_icon@1x.png */; };
-		E34A528829D0A52D001CFECF /* k_logo_rounded@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A525B29D0A52C001CFECF /* k_logo_rounded@1x.png */; };
-		E34A528929D0A52D001CFECF /* phone_number_verified_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A525C29D0A52C001CFECF /* phone_number_verified_icon@2x.png */; };
-		E34A528A29D0A52D001CFECF /* k_logo_rounded@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34A525D29D0A52C001CFECF /* k_logo_rounded@2x.png */; };
-		E54B2041AA212431F6F380A34DDCEE1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E54B2041AA212431F6F380A34DDCEE1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		F391216EF6D0ABC95295A6189FBBF7E2 /* Pods-KwiksSystemsPopups_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F29ED055DA42367FABC05BAF66791C /* Pods-KwiksSystemsPopups_Tests-dummy.m */; };
+		F985216C715EF04372FA802BF2D7AC3D /* SegoeItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BC8FC336C6EA4356ECFFDF09D218F0A /* SegoeItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		33F5A057C37811F3BFF5BA2274A62551 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 895F61C75967D18BADA51BD8F9535465;
-			remoteInfo = "Pods-KwiksSystemsPopups_Example";
-		};
-		6C03A6BA7322EAD29648CCBA2F1D48AB /* PBXContainerItemProxy */ = {
+		17E71464C1D4A385CB0384F5FEA16332 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A221E8C240FBE3F0934275C59EE278A3;
 			remoteInfo = KwiksSystemsPopups;
 		};
+		4EF421E5B0D757DD785723DD3E8CD040 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 895F61C75967D18BADA51BD8F9535465;
+			remoteInfo = "Pods-KwiksSystemsPopups_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0A1F3B44B8B7B6074DE8BD4C820ECE82 /* Pods-KwiksSystemsPopups_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KwiksSystemsPopups_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		13D2A6707980E54AE1F815612C6AB27B /* Pods-KwiksSystemsPopups_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KwiksSystemsPopups_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1B28B8C313A371227959E04F282CD4FF /* KwiksSystemsPopups.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KwiksSystemsPopups.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1CEAA643F2FE24D3D52521502A1903CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		29C5D0D8B2386D9C323BFCBC31696A7B /* KwiksSystemsPopups-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KwiksSystemsPopups-umbrella.h"; sourceTree = "<group>"; };
-		2C55B30CE0F4C8E147EBA78B07DD0677 /* Pods_KwiksSystemsPopups_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KwiksSystemsPopups_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2509A292778313469BD443DC1CC8A437 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2C55B30CE0F4C8E147EBA78B07DD0677 /* Pods-KwiksSystemsPopups_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KwiksSystemsPopups_Tests"; path = Pods_KwiksSystemsPopups_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DECF593FDF2CE35D21C74878A625B32 /* Pods-KwiksSystemsPopups_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KwiksSystemsPopups_Example.release.xcconfig"; sourceTree = "<group>"; };
+		353F7A7846A7D288A14CA31689B5E726 /* KwiksSystemsPopups-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KwiksSystemsPopups-Info.plist"; sourceTree = "<group>"; };
 		369CD498FDB1451E8F4AAB2650CD0DBC /* Pods-KwiksSystemsPopups_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KwiksSystemsPopups_Example-umbrella.h"; sourceTree = "<group>"; };
-		3C4FDD3AF6B8BCB71FB32A9385316BE3 /* KwiksSystemsPopups.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KwiksSystemsPopups.debug.xcconfig; sourceTree = "<group>"; };
 		403803D97FB02D0937D62A7CBB998CE3 /* Pods-KwiksSystemsPopups_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KwiksSystemsPopups_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		46031EA2D05470093E65FFB23920F7A2 /* KwiksSystemsPopups-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KwiksSystemsPopups-prefix.pch"; sourceTree = "<group>"; };
+		41B0666F20756E603784973C5F1AE5DB /* KwiksSystemsPopups.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KwiksSystemsPopups.release.xcconfig; sourceTree = "<group>"; };
+		44098EE8EB893568C195418E5BD01FCA /* KwiksSystemsPopups.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KwiksSystemsPopups.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		446E8DDDE9419FAEF2A0DCB687081C12 /* KwiksSystemsPopups-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KwiksSystemsPopups-dummy.m"; sourceTree = "<group>"; };
 		46FA2EF0B6A7D088511B6C195A4C0C0E /* Pods-KwiksSystemsPopups_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KwiksSystemsPopups_Example.modulemap"; sourceTree = "<group>"; };
-		48779C22B6736A948F39D7FA0460A65E /* Pods_KwiksSystemsPopups_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KwiksSystemsPopups_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		486CBCAEB4B1915E5AFCAA40A7584BDF /* KwiksSystemsPopups.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KwiksSystemsPopups.modulemap; sourceTree = "<group>"; };
+		48779C22B6736A948F39D7FA0460A65E /* Pods-KwiksSystemsPopups_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KwiksSystemsPopups_Example"; path = Pods_KwiksSystemsPopups_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC8FC336C6EA4356ECFFDF09D218F0A /* SegoeItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = SegoeItalic.ttf; path = KwiksSystemsPopups/Assets/SegoeItalic.ttf; sourceTree = "<group>"; };
 		509A2C6EEB9877891EC4BFB9FA0156BA /* Pods-KwiksSystemsPopups_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KwiksSystemsPopups_Tests.modulemap"; sourceTree = "<group>"; };
-		5E290421910885FDEABDF842E5FEF692 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		6EDC983964DFBB1612977E340F2832BF /* KwiksSystemsPopups.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KwiksSystemsPopups.release.xcconfig; sourceTree = "<group>"; };
+		5FDB543B2402A2119D75982D721DF3D1 /* KwiksSystemsHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KwiksSystemsHelper.swift; path = KwiksSystemsPopups/Classes/KwiksSystemsHelper.swift; sourceTree = "<group>"; };
+		612C6914140ABDD8DE8A5CF4BDF5E8D2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		637F9F9119654568D6AC0370239B9F53 /* SegoeBoldItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = SegoeBoldItalic.ttf; path = KwiksSystemsPopups/Assets/SegoeBoldItalic.ttf; sourceTree = "<group>"; };
 		72F29ED055DA42367FABC05BAF66791C /* Pods-KwiksSystemsPopups_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KwiksSystemsPopups_Tests-dummy.m"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7557330975FE7D5B2E05C392168AC7D2 /* Pods-KwiksSystemsPopups_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KwiksSystemsPopups_Tests-Info.plist"; sourceTree = "<group>"; };
+		7E0439C19ABD1908B0E43C15AF79D455 /* KwiksSystemsPopups.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KwiksSystemsPopups.debug.xcconfig; sourceTree = "<group>"; };
 		8049C016703F1A304353B17E6BE44A9D /* Pods-KwiksSystemsPopups_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KwiksSystemsPopups_Example-dummy.m"; sourceTree = "<group>"; };
 		8B085B78BC3CD13C02E8C41BF5D6D7C4 /* Pods-KwiksSystemsPopups_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KwiksSystemsPopups_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9A934B21C0A2B468E7AA59C59EA359E1 /* Pods-KwiksSystemsPopups_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KwiksSystemsPopups_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6FEC3F758602BAF482F76866F4669ED /* KwiksSystemsPopups-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KwiksSystemsPopups-dummy.m"; sourceTree = "<group>"; };
+		9A9F779C762DA8A27C610E2962F78963 /* SegoeRegular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = SegoeRegular.ttf; path = KwiksSystemsPopups/Assets/SegoeRegular.ttf; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E33CCB8CBB4F33F896E2037BEF7A257 /* KwiksSystemsPopups-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KwiksSystemsPopups-prefix.pch"; sourceTree = "<group>"; };
+		B03AF78051907C25931A72319A761CB8 /* KwiksSystemsPopups-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KwiksSystemsPopups-umbrella.h"; sourceTree = "<group>"; };
+		C4643161CF66BB0773DD2B1DF1932CB9 /* KwiksSystemsPopups.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KwiksSystemsPopups.swift; path = KwiksSystemsPopups/Classes/KwiksSystemsPopups.swift; sourceTree = "<group>"; };
 		C8FB5CD08CEE5DABB15CD85894F68B71 /* Pods-KwiksSystemsPopups_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KwiksSystemsPopups_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C94A37B75B6B7E3506997111C5D234E2 /* Pods-KwiksSystemsPopups_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KwiksSystemsPopups_Example-Info.plist"; sourceTree = "<group>"; };
 		CA6F6BB217EEE366112CDAF5C1AE986B /* Pods-KwiksSystemsPopups_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KwiksSystemsPopups_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D0645D21C8C2165CA34F03DE953A064A /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = KwiksSystemsPopups/Assets/Media.xcassets; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		D8225FED542FAEC4494596DF7EA72FEA /* Pods-KwiksSystemsPopups_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KwiksSystemsPopups_Tests-umbrella.h"; sourceTree = "<group>"; };
-		DE8259AAAF6CFB65D753AFB9FC262E58 /* KwiksSystemsPopups.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KwiksSystemsPopups.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E34A522329D0A46C001CFECF /* KwiksSystemsPopups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KwiksSystemsPopups.swift; path = KwiksSystemsPopups/Classes/KwiksSystemsPopups.swift; sourceTree = "<group>"; };
-		E34A522529D0A484001CFECF /* KwiksSystemsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KwiksSystemsHelper.swift; path = KwiksSystemsPopups/Classes/KwiksSystemsHelper.swift; sourceTree = "<group>"; };
-		E34A522729D0A4D7001CFECF /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = KwiksSystemsPopups/Assets/Media.xcassets; sourceTree = "<group>"; };
-		E34A522929D0A50F001CFECF /* SegoeItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SegoeItalic.ttf; sourceTree = "<group>"; };
-		E34A522A29D0A50F001CFECF /* SegoeBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SegoeBold.ttf; sourceTree = "<group>"; };
-		E34A522B29D0A50F001CFECF /* SegoeBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SegoeBoldItalic.ttf; sourceTree = "<group>"; };
-		E34A522C29D0A50F001CFECF /* SegoeRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SegoeRegular.ttf; sourceTree = "<group>"; };
-		E34A523129D0A52A001CFECF /* money_wallet_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "money_wallet_icon@2x.png"; sourceTree = "<group>"; };
-		E34A523229D0A52A001CFECF /* phone_number_verified_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone_number_verified_icon@3x.png"; sourceTree = "<group>"; };
-		E34A523329D0A52A001CFECF /* sound_broken_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sound_broken_icon@2x.png"; sourceTree = "<group>"; };
-		E34A523429D0A52A001CFECF /* phone_not_verified@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone_not_verified@3x.png"; sourceTree = "<group>"; };
-		E34A523529D0A52A001CFECF /* card_not_supported_icon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card_not_supported_icon@1x.png"; sourceTree = "<group>"; };
-		E34A523629D0A52A001CFECF /* email_verified_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email_verified_icon@2x.png"; sourceTree = "<group>"; };
-		E34A523729D0A52B001CFECF /* file_icon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file_icon@1x.png"; sourceTree = "<group>"; };
-		E34A523829D0A52B001CFECF /* card_not_supported_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card_not_supported_icon@2x.png"; sourceTree = "<group>"; };
-		E34A523929D0A52B001CFECF /* phone_not_verified@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone_not_verified@1x.png"; sourceTree = "<group>"; };
-		E34A523A29D0A52B001CFECF /* upload_cloud_icon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "upload_cloud_icon@1x.png"; sourceTree = "<group>"; };
-		E34A523B29D0A52B001CFECF /* email_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email_icon@3x.png"; sourceTree = "<group>"; };
-		E34A523C29D0A52B001CFECF /* hard_fail_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hard_fail_icon@2x.png"; sourceTree = "<group>"; };
-		E34A523D29D0A52B001CFECF /* hard_fail_icon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hard_fail_icon@1x.png"; sourceTree = "<group>"; };
-		E34A523E29D0A52B001CFECF /* hard_fail_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hard_fail_icon@3x.png"; sourceTree = "<group>"; };
-		E34A523F29D0A52B001CFECF /* email_icon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email_icon@1x.png"; sourceTree = "<group>"; };
-		E34A524029D0A52B001CFECF /* email_not_verified_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email_not_verified_icon@2x.png"; sourceTree = "<group>"; };
-		E34A524129D0A52B001CFECF /* file_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file_icon@3x.png"; sourceTree = "<group>"; };
-		E34A524229D0A52B001CFECF /* download_cloud_icon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "download_cloud_icon@1x.png"; sourceTree = "<group>"; };
-		E34A524329D0A52B001CFECF /* phone_number_verified_icon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone_number_verified_icon@1x.png"; sourceTree = "<group>"; };
-		E34A524429D0A52B001CFECF /* sound_broken_icon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sound_broken_icon@1x.png"; sourceTree = "<group>"; };
-		E34A524529D0A52B001CFECF /* warning_hollow_icon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warning_hollow_icon@1x.png"; sourceTree = "<group>"; };
-		E34A524629D0A52B001CFECF /* email_not_verified_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email_not_verified_icon@3x.png"; sourceTree = "<group>"; };
-		E34A524729D0A52B001CFECF /* warning_hollow_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warning_hollow_icon@3x.png"; sourceTree = "<group>"; };
-		E34A524829D0A52B001CFECF /* download_cloud_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "download_cloud_icon@2x.png"; sourceTree = "<group>"; };
-		E34A524929D0A52B001CFECF /* email_not_verified_icon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email_not_verified_icon@1x.png"; sourceTree = "<group>"; };
-		E34A524A29D0A52B001CFECF /* incorrect_password_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "incorrect_password_icon@3x.png"; sourceTree = "<group>"; };
-		E34A524B29D0A52B001CFECF /* k_logo_rounded@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "k_logo_rounded@3x.png"; sourceTree = "<group>"; };
-		E34A524C29D0A52C001CFECF /* phone_not_verified@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone_not_verified@2x.png"; sourceTree = "<group>"; };
-		E34A524D29D0A52C001CFECF /* warning_hollow_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warning_hollow_icon@2x.png"; sourceTree = "<group>"; };
-		E34A524E29D0A52C001CFECF /* sound_broken_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sound_broken_icon@3x.png"; sourceTree = "<group>"; };
-		E34A524F29D0A52C001CFECF /* money_wallet_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "money_wallet_icon@3x.png"; sourceTree = "<group>"; };
-		E34A525029D0A52C001CFECF /* email_verified_icon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email_verified_icon@1x.png"; sourceTree = "<group>"; };
-		E34A525129D0A52C001CFECF /* incorrect_password_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "incorrect_password_icon@2x.png"; sourceTree = "<group>"; };
-		E34A525229D0A52C001CFECF /* upload_cloud_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "upload_cloud_icon@2x.png"; sourceTree = "<group>"; };
-		E34A525329D0A52C001CFECF /* file_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file_icon@2x.png"; sourceTree = "<group>"; };
-		E34A525429D0A52C001CFECF /* email_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email_icon@2x.png"; sourceTree = "<group>"; };
-		E34A525529D0A52C001CFECF /* card_not_supported_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card_not_supported_icon@3x.png"; sourceTree = "<group>"; };
-		E34A525629D0A52C001CFECF /* download_cloud_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "download_cloud_icon@3x.png"; sourceTree = "<group>"; };
-		E34A525729D0A52C001CFECF /* email_verified_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email_verified_icon@3x.png"; sourceTree = "<group>"; };
-		E34A525829D0A52C001CFECF /* upload_cloud_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "upload_cloud_icon@3x.png"; sourceTree = "<group>"; };
-		E34A525929D0A52C001CFECF /* money_wallet_icon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "money_wallet_icon@1x.png"; sourceTree = "<group>"; };
-		E34A525A29D0A52C001CFECF /* incorrect_password_icon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "incorrect_password_icon@1x.png"; sourceTree = "<group>"; };
-		E34A525B29D0A52C001CFECF /* k_logo_rounded@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "k_logo_rounded@1x.png"; sourceTree = "<group>"; };
-		E34A525C29D0A52C001CFECF /* phone_number_verified_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone_number_verified_icon@2x.png"; sourceTree = "<group>"; };
-		E34A525D29D0A52C001CFECF /* k_logo_rounded@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "k_logo_rounded@2x.png"; sourceTree = "<group>"; };
-		E8D88DFF39AD82FABB6F651CE757DE3D /* KwiksSystemsPopups-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KwiksSystemsPopups-Info.plist"; sourceTree = "<group>"; };
+		DE8259AAAF6CFB65D753AFB9FC262E58 /* KwiksSystemsPopups */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KwiksSystemsPopups; path = KwiksSystemsPopups.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E01A6CC99EBA8B4A1126463351951B37 /* SegoeBold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = SegoeBold.ttf; path = KwiksSystemsPopups/Assets/SegoeBold.ttf; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F32EA7BF079AEAF9FDA4DB2FDB6C31FB /* Pods-KwiksSystemsPopups_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KwiksSystemsPopups_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F7400F0282CE1C7CA81ABC864FC50DF8 /* KwiksSystemsPopups.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KwiksSystemsPopups.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0221042528C167170E12F2C094F648C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587182389644F0E57DB480BFF1B9305E /* Foundation.framework in Frameworks */,
+				C5CA11C28203C222EB58CC914494420D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0AB16CB73B3C898B85248615FE92AC42 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -191,25 +112,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F63697D3AC132FC5155F1669EA60FA65 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4A666401E62F4061BA0429BDD2A37AF3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E8AD01A77486B4775061047D02C1855 /* Pod */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1B28B8C313A371227959E04F282CD4FF /* KwiksSystemsPopups.podspec */,
-				1CEAA643F2FE24D3D52521502A1903CC /* LICENSE */,
-				5E290421910885FDEABDF842E5FEF692 /* README.md */,
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
 			);
-			name = Pod;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20AAB40E0340BE59B9970D4C1D050C21 /* KwiksSystemsPopups */ = {
+			isa = PBXGroup;
+			children = (
+				5FDB543B2402A2119D75982D721DF3D1 /* KwiksSystemsHelper.swift */,
+				C4643161CF66BB0773DD2B1DF1932CB9 /* KwiksSystemsPopups.swift */,
+				D0645D21C8C2165CA34F03DE953A064A /* Media.xcassets */,
+				E01A6CC99EBA8B4A1126463351951B37 /* SegoeBold.ttf */,
+				637F9F9119654568D6AC0370239B9F53 /* SegoeBoldItalic.ttf */,
+				4BC8FC336C6EA4356ECFFDF09D218F0A /* SegoeItalic.ttf */,
+				9A9F779C762DA8A27C610E2962F78963 /* SegoeRegular.ttf */,
+				2D0270615E53A877A9F8B5FFA4434D31 /* Pod */,
+				C8A7345198913CA04CACA8AE0196FBA9 /* Support Files */,
+			);
+			name = KwiksSystemsPopups;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		2A5D2F247D795D1E947F31D64B2DCD70 /* Targets Support Files */ = {
@@ -221,82 +149,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		2D0270615E53A877A9F8B5FFA4434D31 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				44098EE8EB893568C195418E5BD01FCA /* KwiksSystemsPopups.podspec */,
+				612C6914140ABDD8DE8A5CF4BDF5E8D2 /* LICENSE */,
+				2509A292778313469BD443DC1CC8A437 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		62F137E063E9297EB158D6AF00178076 /* KwiksSystemsPopups */ = {
-			isa = PBXGroup;
-			children = (
-				E34A523529D0A52A001CFECF /* card_not_supported_icon@1x.png */,
-				E34A523829D0A52B001CFECF /* card_not_supported_icon@2x.png */,
-				E34A525529D0A52C001CFECF /* card_not_supported_icon@3x.png */,
-				E34A524229D0A52B001CFECF /* download_cloud_icon@1x.png */,
-				E34A524829D0A52B001CFECF /* download_cloud_icon@2x.png */,
-				E34A525629D0A52C001CFECF /* download_cloud_icon@3x.png */,
-				E34A523F29D0A52B001CFECF /* email_icon@1x.png */,
-				E34A525429D0A52C001CFECF /* email_icon@2x.png */,
-				E34A523B29D0A52B001CFECF /* email_icon@3x.png */,
-				E34A524929D0A52B001CFECF /* email_not_verified_icon@1x.png */,
-				E34A524029D0A52B001CFECF /* email_not_verified_icon@2x.png */,
-				E34A524629D0A52B001CFECF /* email_not_verified_icon@3x.png */,
-				E34A525029D0A52C001CFECF /* email_verified_icon@1x.png */,
-				E34A523629D0A52A001CFECF /* email_verified_icon@2x.png */,
-				E34A525729D0A52C001CFECF /* email_verified_icon@3x.png */,
-				E34A523729D0A52B001CFECF /* file_icon@1x.png */,
-				E34A525329D0A52C001CFECF /* file_icon@2x.png */,
-				E34A524129D0A52B001CFECF /* file_icon@3x.png */,
-				E34A523D29D0A52B001CFECF /* hard_fail_icon@1x.png */,
-				E34A523C29D0A52B001CFECF /* hard_fail_icon@2x.png */,
-				E34A523E29D0A52B001CFECF /* hard_fail_icon@3x.png */,
-				E34A525A29D0A52C001CFECF /* incorrect_password_icon@1x.png */,
-				E34A525129D0A52C001CFECF /* incorrect_password_icon@2x.png */,
-				E34A524A29D0A52B001CFECF /* incorrect_password_icon@3x.png */,
-				E34A525B29D0A52C001CFECF /* k_logo_rounded@1x.png */,
-				E34A525D29D0A52C001CFECF /* k_logo_rounded@2x.png */,
-				E34A524B29D0A52B001CFECF /* k_logo_rounded@3x.png */,
-				E34A525929D0A52C001CFECF /* money_wallet_icon@1x.png */,
-				E34A523129D0A52A001CFECF /* money_wallet_icon@2x.png */,
-				E34A524F29D0A52C001CFECF /* money_wallet_icon@3x.png */,
-				E34A523929D0A52B001CFECF /* phone_not_verified@1x.png */,
-				E34A524C29D0A52C001CFECF /* phone_not_verified@2x.png */,
-				E34A523429D0A52A001CFECF /* phone_not_verified@3x.png */,
-				E34A524329D0A52B001CFECF /* phone_number_verified_icon@1x.png */,
-				E34A525C29D0A52C001CFECF /* phone_number_verified_icon@2x.png */,
-				E34A523229D0A52A001CFECF /* phone_number_verified_icon@3x.png */,
-				E34A524429D0A52B001CFECF /* sound_broken_icon@1x.png */,
-				E34A523329D0A52A001CFECF /* sound_broken_icon@2x.png */,
-				E34A524E29D0A52C001CFECF /* sound_broken_icon@3x.png */,
-				E34A523A29D0A52B001CFECF /* upload_cloud_icon@1x.png */,
-				E34A525229D0A52C001CFECF /* upload_cloud_icon@2x.png */,
-				E34A525829D0A52C001CFECF /* upload_cloud_icon@3x.png */,
-				E34A524529D0A52B001CFECF /* warning_hollow_icon@1x.png */,
-				E34A524D29D0A52C001CFECF /* warning_hollow_icon@2x.png */,
-				E34A524729D0A52B001CFECF /* warning_hollow_icon@3x.png */,
-				E34A522A29D0A50F001CFECF /* SegoeBold.ttf */,
-				E34A522B29D0A50F001CFECF /* SegoeBoldItalic.ttf */,
-				E34A522929D0A50F001CFECF /* SegoeItalic.ttf */,
-				E34A522C29D0A50F001CFECF /* SegoeRegular.ttf */,
-				0E8AD01A77486B4775061047D02C1855 /* Pod */,
-				8AA51F3A557F026CC6BAC92B9F2F3B56 /* Support Files */,
-				E34A522329D0A46C001CFECF /* KwiksSystemsPopups.swift */,
-				E34A522529D0A484001CFECF /* KwiksSystemsHelper.swift */,
-				E34A522729D0A4D7001CFECF /* Media.xcassets */,
-			);
-			name = KwiksSystemsPopups;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		67318BE53A4008B6A17D9273A3A5E41E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				62F137E063E9297EB158D6AF00178076 /* KwiksSystemsPopups */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		72B4354799D9251FCC2334AF8E200C58 /* Pods-KwiksSystemsPopups_Example */ = {
@@ -314,21 +183,6 @@
 			);
 			name = "Pods-KwiksSystemsPopups_Example";
 			path = "Target Support Files/Pods-KwiksSystemsPopups_Example";
-			sourceTree = "<group>";
-		};
-		8AA51F3A557F026CC6BAC92B9F2F3B56 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F7400F0282CE1C7CA81ABC864FC50DF8 /* KwiksSystemsPopups.modulemap */,
-				A6FEC3F758602BAF482F76866F4669ED /* KwiksSystemsPopups-dummy.m */,
-				E8D88DFF39AD82FABB6F651CE757DE3D /* KwiksSystemsPopups-Info.plist */,
-				46031EA2D05470093E65FFB23920F7A2 /* KwiksSystemsPopups-prefix.pch */,
-				29C5D0D8B2386D9C323BFCBC31696A7B /* KwiksSystemsPopups-umbrella.h */,
-				3C4FDD3AF6B8BCB71FB32A9385316BE3 /* KwiksSystemsPopups.debug.xcconfig */,
-				6EDC983964DFBB1612977E340F2832BF /* KwiksSystemsPopups.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KwiksSystemsPopups";
 			sourceTree = "<group>";
 		};
 		AAB08F4C817A8DC0B6770DA1B58F9441 /* Pods-KwiksSystemsPopups_Tests */ = {
@@ -350,35 +204,58 @@
 		B12AAFEC5F7A3C89AC8B26886540787B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DE8259AAAF6CFB65D753AFB9FC262E58 /* KwiksSystemsPopups.framework */,
-				48779C22B6736A948F39D7FA0460A65E /* Pods_KwiksSystemsPopups_Example.framework */,
-				2C55B30CE0F4C8E147EBA78B07DD0677 /* Pods_KwiksSystemsPopups_Tests.framework */,
+				DE8259AAAF6CFB65D753AFB9FC262E58 /* KwiksSystemsPopups */,
+				48779C22B6736A948F39D7FA0460A65E /* Pods-KwiksSystemsPopups_Example */,
+				2C55B30CE0F4C8E147EBA78B07DD0677 /* Pods-KwiksSystemsPopups_Tests */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C8A7345198913CA04CACA8AE0196FBA9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				486CBCAEB4B1915E5AFCAA40A7584BDF /* KwiksSystemsPopups.modulemap */,
+				446E8DDDE9419FAEF2A0DCB687081C12 /* KwiksSystemsPopups-dummy.m */,
+				353F7A7846A7D288A14CA31689B5E726 /* KwiksSystemsPopups-Info.plist */,
+				9E33CCB8CBB4F33F896E2037BEF7A257 /* KwiksSystemsPopups-prefix.pch */,
+				B03AF78051907C25931A72319A761CB8 /* KwiksSystemsPopups-umbrella.h */,
+				7E0439C19ABD1908B0E43C15AF79D455 /* KwiksSystemsPopups.debug.xcconfig */,
+				41B0666F20756E603784973C5F1AE5DB /* KwiksSystemsPopups.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KwiksSystemsPopups";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				67318BE53A4008B6A17D9273A3A5E41E /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E69F44AF089F4D6AEDC96F0F8C9E3A68 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				B12AAFEC5F7A3C89AC8B26886540787B /* Products */,
 				2A5D2F247D795D1E947F31D64B2DCD70 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		E69F44AF089F4D6AEDC96F0F8C9E3A68 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				20AAB40E0340BE59B9970D4C1D050C21 /* KwiksSystemsPopups */,
 			);
-			name = Frameworks;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		3CBA3FB5859C9B82AED5F9E7C1DF8411 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829EDEB0CED31EE5A0B874A13A4A42FE /* KwiksSystemsPopups-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5D5C956B02EA2BA6C9BDD564C10F1C21 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -392,14 +269,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				369A34BCCC93EFEF1139E522DD617F8E /* Pods-KwiksSystemsPopups_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6CCD05A2F07B434C6F627240A45F509 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D8FB7D261F4AC85CEAC749563D667836 /* KwiksSystemsPopups-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,11 +287,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				0EC950559029D22DAD2FAAC2A5255616 /* PBXTargetDependency */,
+				E38C35CB87F0A9A7F801AF942D03A6B0 /* PBXTargetDependency */,
 			);
 			name = "Pods-KwiksSystemsPopups_Tests";
 			productName = Pods_KwiksSystemsPopups_Tests;
-			productReference = 2C55B30CE0F4C8E147EBA78B07DD0677 /* Pods_KwiksSystemsPopups_Tests.framework */;
+			productReference = 2C55B30CE0F4C8E147EBA78B07DD0677 /* Pods-KwiksSystemsPopups_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		895F61C75967D18BADA51BD8F9535465 /* Pods-KwiksSystemsPopups_Example */ = {
@@ -437,21 +306,21 @@
 			buildRules = (
 			);
 			dependencies = (
-				809791CDD2B1C5083CF35BE28B67EA7C /* PBXTargetDependency */,
+				25150D739D5F77E9378E2EB4930E3D79 /* PBXTargetDependency */,
 			);
 			name = "Pods-KwiksSystemsPopups_Example";
 			productName = Pods_KwiksSystemsPopups_Example;
-			productReference = 48779C22B6736A948F39D7FA0460A65E /* Pods_KwiksSystemsPopups_Example.framework */;
+			productReference = 48779C22B6736A948F39D7FA0460A65E /* Pods-KwiksSystemsPopups_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		A221E8C240FBE3F0934275C59EE278A3 /* KwiksSystemsPopups */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2AC440B67624ECD08F4E1527A496B07E /* Build configuration list for PBXNativeTarget "KwiksSystemsPopups" */;
+			buildConfigurationList = 735A9E912E63C0F3D9E7416C41445101 /* Build configuration list for PBXNativeTarget "KwiksSystemsPopups" */;
 			buildPhases = (
-				B6CCD05A2F07B434C6F627240A45F509 /* Headers */,
-				EB6CB5B99F4EB43BA078EB07674046CE /* Sources */,
-				F63697D3AC132FC5155F1669EA60FA65 /* Frameworks */,
-				829CE18E75DEB79B733594E9EBBCD1E2 /* Resources */,
+				3CBA3FB5859C9B82AED5F9E7C1DF8411 /* Headers */,
+				CF1914D1CE7805F2D5FA55EB2222FEC7 /* Sources */,
+				0221042528C167170E12F2C094F648C5 /* Frameworks */,
+				BFCF6682F4637A67633F5D2DA1BDC5CD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -459,7 +328,7 @@
 			);
 			name = KwiksSystemsPopups;
 			productName = KwiksSystemsPopups;
-			productReference = DE8259AAAF6CFB65D753AFB9FC262E58 /* KwiksSystemsPopups.framework */;
+			productReference = DE8259AAAF6CFB65D753AFB9FC262E58 /* KwiksSystemsPopups */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -470,11 +339,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
-				TargetAttributes = {
-					A221E8C240FBE3F0934275C59EE278A3 = {
-						LastSwiftMigration = "";
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -504,60 +368,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		829CE18E75DEB79B733594E9EBBCD1E2 /* Resources */ = {
+		BFCF6682F4637A67633F5D2DA1BDC5CD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E34A522E29D0A50F001CFECF /* SegoeBold.ttf in Resources */,
-				E34A526C29D0A52C001CFECF /* email_icon@1x.png in Resources */,
-				E34A527E29D0A52D001CFECF /* incorrect_password_icon@2x.png in Resources */,
-				E34A526929D0A52C001CFECF /* hard_fail_icon@2x.png in Resources */,
-				E34A527529D0A52D001CFECF /* download_cloud_icon@2x.png in Resources */,
-				E34A522F29D0A50F001CFECF /* SegoeBoldItalic.ttf in Resources */,
-				E34A527929D0A52D001CFECF /* phone_not_verified@2x.png in Resources */,
-				E34A527629D0A52D001CFECF /* email_not_verified_icon@1x.png in Resources */,
-				E34A526D29D0A52C001CFECF /* email_not_verified_icon@2x.png in Resources */,
-				E34A528A29D0A52D001CFECF /* k_logo_rounded@2x.png in Resources */,
-				E34A526B29D0A52C001CFECF /* hard_fail_icon@3x.png in Resources */,
-				E34A522D29D0A50F001CFECF /* SegoeItalic.ttf in Resources */,
-				E34A526329D0A52C001CFECF /* email_verified_icon@2x.png in Resources */,
-				E34A528829D0A52D001CFECF /* k_logo_rounded@1x.png in Resources */,
-				E34A526E29D0A52C001CFECF /* file_icon@3x.png in Resources */,
-				E34A528529D0A52D001CFECF /* upload_cloud_icon@3x.png in Resources */,
-				E34A528629D0A52D001CFECF /* money_wallet_icon@1x.png in Resources */,
-				E34A527129D0A52D001CFECF /* sound_broken_icon@1x.png in Resources */,
-				E34A526429D0A52C001CFECF /* file_icon@1x.png in Resources */,
-				E34A522829D0A4D7001CFECF /* Media.xcassets in Resources */,
-				E34A523029D0A50F001CFECF /* SegoeRegular.ttf in Resources */,
-				E34A526229D0A52C001CFECF /* card_not_supported_icon@1x.png in Resources */,
-				E34A528329D0A52D001CFECF /* download_cloud_icon@3x.png in Resources */,
-				E34A526A29D0A52C001CFECF /* hard_fail_icon@1x.png in Resources */,
-				E34A527F29D0A52D001CFECF /* upload_cloud_icon@2x.png in Resources */,
-				E34A528429D0A52D001CFECF /* email_verified_icon@3x.png in Resources */,
-				E34A526629D0A52C001CFECF /* phone_not_verified@1x.png in Resources */,
-				E34A527729D0A52D001CFECF /* incorrect_password_icon@3x.png in Resources */,
-				E34A526F29D0A52C001CFECF /* download_cloud_icon@1x.png in Resources */,
-				E34A526529D0A52C001CFECF /* card_not_supported_icon@2x.png in Resources */,
-				E34A527D29D0A52D001CFECF /* email_verified_icon@1x.png in Resources */,
-				E34A527229D0A52D001CFECF /* warning_hollow_icon@1x.png in Resources */,
-				E34A526129D0A52C001CFECF /* phone_not_verified@3x.png in Resources */,
-				E34A525F29D0A52C001CFECF /* phone_number_verified_icon@3x.png in Resources */,
-				E34A527A29D0A52D001CFECF /* warning_hollow_icon@2x.png in Resources */,
-				E34A528129D0A52D001CFECF /* email_icon@2x.png in Resources */,
-				E34A528929D0A52D001CFECF /* phone_number_verified_icon@2x.png in Resources */,
-				E34A528729D0A52D001CFECF /* incorrect_password_icon@1x.png in Resources */,
-				E34A528029D0A52D001CFECF /* file_icon@2x.png in Resources */,
-				E34A527C29D0A52D001CFECF /* money_wallet_icon@3x.png in Resources */,
-				E34A526029D0A52C001CFECF /* sound_broken_icon@2x.png in Resources */,
-				E34A527029D0A52C001CFECF /* phone_number_verified_icon@1x.png in Resources */,
-				E34A526729D0A52C001CFECF /* upload_cloud_icon@1x.png in Resources */,
-				E34A527B29D0A52D001CFECF /* sound_broken_icon@3x.png in Resources */,
-				E34A527329D0A52D001CFECF /* email_not_verified_icon@3x.png in Resources */,
-				E34A528229D0A52D001CFECF /* card_not_supported_icon@3x.png in Resources */,
-				E34A525E29D0A52C001CFECF /* money_wallet_icon@2x.png in Resources */,
-				E34A527429D0A52D001CFECF /* warning_hollow_icon@3x.png in Resources */,
-				E34A527829D0A52D001CFECF /* k_logo_rounded@3x.png in Resources */,
-				E34A526829D0A52C001CFECF /* email_icon@3x.png in Resources */,
+				CF1FD2E9757DD4DC5A38BDD74AC3C8F1 /* Media.xcassets in Resources */,
+				6EEA6E57DFABF4EF50CAD091D11EA38C /* SegoeBold.ttf in Resources */,
+				2F7B239B55EE1BE3E1B412D49AC70247 /* SegoeBoldItalic.ttf in Resources */,
+				F985216C715EF04372FA802BF2D7AC3D /* SegoeItalic.ttf in Resources */,
+				C4DA21DB4462FE654B7660B227249C42 /* SegoeRegular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,34 +406,65 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB6CB5B99F4EB43BA078EB07674046CE /* Sources */ = {
+		CF1914D1CE7805F2D5FA55EB2222FEC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98F5DD83454E439ADE613AB20024EA5D /* KwiksSystemsPopups-dummy.m in Sources */,
-				E34A522629D0A484001CFECF /* KwiksSystemsHelper.swift in Sources */,
-				E34A522429D0A46C001CFECF /* KwiksSystemsPopups.swift in Sources */,
+				1BBB3D36BC5B2802222A2FA1F56CDBCE /* KwiksSystemsHelper.swift in Sources */,
+				3801D749EE243B97C085B835C525810D /* KwiksSystemsPopups.swift in Sources */,
+				A74DFA8607972336EB0193D1EAB5A88F /* KwiksSystemsPopups-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0EC950559029D22DAD2FAAC2A5255616 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-KwiksSystemsPopups_Example";
-			target = 895F61C75967D18BADA51BD8F9535465 /* Pods-KwiksSystemsPopups_Example */;
-			targetProxy = 33F5A057C37811F3BFF5BA2274A62551 /* PBXContainerItemProxy */;
-		};
-		809791CDD2B1C5083CF35BE28B67EA7C /* PBXTargetDependency */ = {
+		25150D739D5F77E9378E2EB4930E3D79 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KwiksSystemsPopups;
 			target = A221E8C240FBE3F0934275C59EE278A3 /* KwiksSystemsPopups */;
-			targetProxy = 6C03A6BA7322EAD29648CCBA2F1D48AB /* PBXContainerItemProxy */;
+			targetProxy = 17E71464C1D4A385CB0384F5FEA16332 /* PBXContainerItemProxy */;
+		};
+		E38C35CB87F0A9A7F801AF942D03A6B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KwiksSystemsPopups_Example";
+			target = 895F61C75967D18BADA51BD8F9535465 /* Pods-KwiksSystemsPopups_Example */;
+			targetProxy = 4EF421E5B0D757DD785723DD3E8CD040 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0E0C6B7B5C06732BE899B630FE86942A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E0439C19ABD1908B0E43C15AF79D455 /* KwiksSystemsPopups.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KwiksSystemsPopups/KwiksSystemsPopups-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KwiksSystemsPopups/KwiksSystemsPopups-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KwiksSystemsPopups/KwiksSystemsPopups.modulemap";
+				PRODUCT_MODULE_NAME = KwiksSystemsPopups;
+				PRODUCT_NAME = KwiksSystemsPopups;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		415FA21812946789CABFD82581FB35D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0A1F3B44B8B7B6074DE8BD4C820ECE82 /* Pods-KwiksSystemsPopups_Tests.release.xcconfig */;
@@ -631,7 +481,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-KwiksSystemsPopups_Tests/Pods-KwiksSystemsPopups_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-KwiksSystemsPopups_Tests/Pods-KwiksSystemsPopups_Tests.modulemap";
@@ -699,12 +549,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -726,7 +577,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-KwiksSystemsPopups_Example/Pods-KwiksSystemsPopups_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-KwiksSystemsPopups_Example/Pods-KwiksSystemsPopups_Example.modulemap";
@@ -744,11 +595,10 @@
 			};
 			name = Release;
 		};
-		A17AD39096111E9AC09EEAC0CEF5A9B0 /* Debug */ = {
+		CF1E313B893778122FE5B00B22386AD0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C4FDD3AF6B8BCB71FB32A9385316BE3 /* KwiksSystemsPopups.debug.xcconfig */;
+			baseConfigurationReference = 41B0666F20756E603784973C5F1AE5DB /* KwiksSystemsPopups.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -761,40 +611,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/KwiksSystemsPopups/KwiksSystemsPopups-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/KwiksSystemsPopups/KwiksSystemsPopups-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KwiksSystemsPopups/KwiksSystemsPopups.modulemap";
-				PRODUCT_MODULE_NAME = KwiksSystemsPopups;
-				PRODUCT_NAME = KwiksSystemsPopups;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BFD508C910BC9927BE935F8F6A8C70D0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EDC983964DFBB1612977E340F2832BF /* KwiksSystemsPopups.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KwiksSystemsPopups/KwiksSystemsPopups-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KwiksSystemsPopups/KwiksSystemsPopups-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/KwiksSystemsPopups/KwiksSystemsPopups.modulemap";
 				PRODUCT_MODULE_NAME = KwiksSystemsPopups;
@@ -863,7 +680,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -892,7 +709,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-KwiksSystemsPopups_Example/Pods-KwiksSystemsPopups_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-KwiksSystemsPopups_Example/Pods-KwiksSystemsPopups_Example.modulemap";
@@ -925,7 +742,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-KwiksSystemsPopups_Tests/Pods-KwiksSystemsPopups_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-KwiksSystemsPopups_Tests/Pods-KwiksSystemsPopups_Tests.modulemap";
@@ -963,20 +780,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2AC440B67624ECD08F4E1527A496B07E /* Build configuration list for PBXNativeTarget "KwiksSystemsPopups" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A17AD39096111E9AC09EEAC0CEF5A9B0 /* Debug */,
-				BFD508C910BC9927BE935F8F6A8C70D0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		735A9E912E63C0F3D9E7416C41445101 /* Build configuration list for PBXNativeTarget "KwiksSystemsPopups" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E0C6B7B5C06732BE899B630FE86942A /* Debug */,
+				CF1E313B893778122FE5B00B22386AD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

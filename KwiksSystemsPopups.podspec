@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/26388491/KwiksSystemsPopups'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'KWIKS CTO' => 'charlie@kwiks.com' }
-  s.source           = { :git => 'https://github.com/26388491/KwiksSystemsPopups.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/NoImpactNoIdea/KwiksSystemsPopups.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '14.0'
+  s.ios.deployment_target = '15.0'
   s.swift_versions = "5.0"
   s.requires_arc = true
 

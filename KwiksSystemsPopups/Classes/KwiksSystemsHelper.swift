@@ -5,7 +5,6 @@
 //  Created by Charlie Arcodia on 3/26/23.
 //
 
-
 import Foundation
 
 //bundled fonts
@@ -71,3 +70,20 @@ extension UIView {
     }
 }
 
+class RandomClass: Any { }
+extension UIImage {
+    convenience init?(fromPodAssetName name: String) {
+        let bundle = Bundle(for: KwiksSystemPopups.self)
+        self.init(named: name, in: bundle, compatibleWith: nil)
+    }
+}
+
+private final class BundleToken {}
+func registerFont(with fontName: String) {
+    guard let url = Bundle(identifier: "org.cocoapods.KwiksSystemsPopups")!
+          .url(forResource: fontName, withExtension: nil),
+          CTFontManagerRegisterFontsForURL(url as CFURL, .process, nil) else {
+        print("FAILED TO LOAD FONTS")
+        return
+    }
+}

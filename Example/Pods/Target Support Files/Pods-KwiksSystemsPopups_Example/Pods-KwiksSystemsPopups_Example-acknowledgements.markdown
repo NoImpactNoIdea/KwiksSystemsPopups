@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## KwiksSystemsPopups
 
-Copyright (c) 2023 26388491 <noimpactapplications@gmail.com>
+Copyright (c) 2023 KWIKS CTO <charlie@kwiks.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
