@@ -354,7 +354,7 @@ public class KwiksSystemPopups : NSObject {
             self.presentPopup()
 
         } else {
-            print("🔴 NIL - LET KWIKS DEV LIB MAGICIAN KNOW - SERIAL (64574)")
+            print("🔴 COCOAPOD ERROR: NIL - LET KWIKS DEV LIBRARY MAGICIAN KNOW - SERIAL (64574)")
         }
     }
     
