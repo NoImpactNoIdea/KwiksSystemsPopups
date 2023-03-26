@@ -1,0 +1,22 @@
+{
+  "name": "KwiksSystemsPopups",
+  "version": "0.1.0",
+  "summary": "A short description of KwiksSystemsPopups.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/26388491/KwiksSystemsPopups",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "26388491": "noimpactapplications@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/26388491/KwiksSystemsPopups.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "KwiksSystemsPopups/Classes/**/*"
+}

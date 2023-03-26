@@ -1,42 +1,23 @@
-#
-# Be sure to run `pod lib lint KwiksSystemsPopups.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'KwiksSystemsPopups'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of KwiksSystemsPopups.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'KwiksSystemsPopups was designed to handle all internal card style popups in the Kwiks iOS Application.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  'KwiksSystemsPopups was designed to help support light frontend and easy code management solutions. The goal of this pod is to provide a one liner popup that switches the PopupType enum.'
                        DESC
 
   s.homepage         = 'https://github.com/26388491/KwiksSystemsPopups'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '26388491' => 'noimpactapplications@gmail.com' }
+  s.author           = { 'KWIKS CTO' => 'charlie@kwiks.com' }
   s.source           = { :git => 'https://github.com/26388491/KwiksSystemsPopups.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '14.0'
+  s.swift_versions = "5.0"
+  s.requires_arc = true
 
   s.source_files = 'KwiksSystemsPopups/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'KwiksSystemsPopups' => ['KwiksSystemsPopups/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.resources = 'KwiksSystemsPopups/**/*.{lproj,storyboard,xcdatamodeld,xib,xcassets,json,ttf,otf}'
+  s.frameworks = 'UIKit'
+   
 end
