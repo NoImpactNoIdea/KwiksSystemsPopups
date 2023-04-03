@@ -11,42 +11,42 @@ import UIKit
 public class KwiksSystemPopups : NSObject {
     
     public enum PopupType{
-        case UpdateKwiks
-        case AgeRestriction
-        case SendingFailed
-        case PermissionNeeded
-        case UploadFailed
-        case DownloadFailed
-        case VerificationFailed
-        case VideoResolutionLow
-        case FileNotSupported
-        case VideoNotSupported
-        case UnknownError
-        case MaximumPostsReached
-        case AccountRestricted
-        case MaxTagReached
-        case LargeImage
-        case UserAccountNotFound
-        case LoginFailed
-        case AccessDenied
-        case SoundNotWorking
-        case EmailNotVerified
-        case EmailVerified
-        case VerifyPhoneNumber
-        case PhoneNumberVerified
-        case IncorrectPassword
-        case IncorrectUsername
-        case FailedTransaction
-        case CardNotSupported
-        case InsufficientBalanceHard
-        case InsufficientBalanceLight
-        case PaymentDeclined
-        case LoginToAccess
+        case updateKwiks
+        case ageRestriction
+        case sendingFailed
+        case permissionNeeded
+        case uploadFailed
+        case downloadFailed
+        case verificationFailed
+        case videoResolutionLow
+        case fileNotSupported
+        case videoNotSupported
+        case unknownError
+        case maximumPostsReached
+        case accountRestricted
+        case maxTagReached
+        case largeImage
+        case userAccountNotFound
+        case loginFailed
+        case accessDenied
+        case soundNotWorking
+        case emailNotVerified
+        case emailVerified
+        case verifyPhoneNumber
+        case phoneNumberVerified
+        case incorrectPassword
+        case incorrectUsername
+        case failedTransaction
+        case cardNotSupported
+        case insufficientBalanceHard
+        case insufficientBalanceLight
+        case paymentDeclined
+        case loginToAccess
     }
     
-    public var rootController: UIViewController?
-    public var popupType: PopupType?
-    public var popupFinalHeight = 0.0
+    public var rootController: UIViewController?,
+               popupType: PopupType?,
+               popupFinalHeight = 0.0
     
     var screenHeight : CGFloat = 0.0,
         screenWidth : CGFloat = 0.0
@@ -144,190 +144,190 @@ public class KwiksSystemPopups : NSObject {
         
         switch popupType {
        
-        case .UpdateKwiks:
+        case .updateKwiks:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().kwiksLogo)
             self.headerLabel.text = "Update Kwiks"
             self.subHeaderLabel.text = "Kwiks app version is too low. To continue, update to the latest version of the app."
             self.confirmationButton.setTitle("Update Now", for: .normal)
         
-        case .AgeRestriction:
+        case .ageRestriction:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().kwiksLogo)
             self.headerLabel.text = "Feature is not available"
             self.subHeaderLabel.text = "This feature is not available for your account due to the age restriction."
             self.confirmationButton.setTitle("Continue", for: .normal)
             
-        case .SendingFailed:
+        case .sendingFailed:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().emailIcon)
             self.headerLabel.text = "Sending Failed!"
             self.subHeaderLabel.text = "Sending Failed. Please try again."
             self.confirmationButton.setTitle("Continue", for: .normal)
             
-        case .PermissionNeeded:
+        case .permissionNeeded:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().warningHollowIcon)
             self.headerLabel.text = "Permission Needed!"
             self.subHeaderLabel.text = "Kwiks need to permission to access files and photos."
             self.confirmationButton.setTitle("Go to settings", for: .normal)
             
-        case .UploadFailed:
+        case .uploadFailed:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().uploadCloudIcon)
             self.headerLabel.text = "Upload Failed!"
             self.subHeaderLabel.text = "Upload failed due to poor network connectivity."
             self.confirmationButton.setTitle("Retry", for: .normal)
             
-        case .DownloadFailed:
+        case .downloadFailed:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().downloadCloudIcon)
             self.headerLabel.text = "Download Failed!"
             self.subHeaderLabel.text = "Download failed due to poor network connections"
             self.confirmationButton.setTitle("Retry", for: .normal)
             
-        case .VerificationFailed:
+        case .verificationFailed:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().warningHollowIcon)
             self.headerLabel.text = "Verification Failed!"
             self.subHeaderLabel.text = "Photo & ID doesn’t meet the requirements."
             self.confirmationButton.setTitle("Retry", for: .normal)
             
-        case .VideoResolutionLow:
+        case .videoResolutionLow:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().uploadCloudIcon)
 
             self.headerLabel.text = "Upload Failed!"
             self.subHeaderLabel.text = "Video resolution is too low."
             self.confirmationButton.setTitle("Retry", for: .normal)
             
-        case .FileNotSupported:
+        case .fileNotSupported:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().fileIcon)
 
             self.headerLabel.text = "File not supported!"
             self.subHeaderLabel.text = "File must be in jpg, png, mp3, mp4, mpeg4 format."
             self.confirmationButton.setTitle("Retry", for: .normal)
             
-        case .VideoNotSupported:
+        case .videoNotSupported:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().fileIcon)
             self.headerLabel.text = "Video not supported!"
             self.subHeaderLabel.text = "Video format is not supported. Supported format- mp4, mpeg4 "
             self.confirmationButton.setTitle("Retry", for: .normal)
             
-        case .UnknownError:
+        case .unknownError:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().warningHollowIcon)
             self.headerLabel.text = "Unknown Error"
             self.subHeaderLabel.text = "An unknown error occured during upload."
             self.confirmationButton.setTitle("Retry", for: .normal)
             
-        case .MaximumPostsReached:
+        case .maximumPostsReached:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().warningHollowIcon)
             self.headerLabel.text = "Maximum Post reached!"
             self.subHeaderLabel.text = "You have reached maximum of posts that is allowed a day. Please try again tomorrow"
             self.confirmationButton.setTitle("Continue", for: .normal)
             
-        case .AccountRestricted:
+        case .accountRestricted:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().warningHollowIcon)
             self.headerLabel.text = "Account Restricted!"
             self.subHeaderLabel.text = "Your Kwiks Account is restricted. Contact support to reactive your account."
             self.confirmationButton.setTitle("Continue", for: .normal)
             
-        case .MaxTagReached:
+        case .maxTagReached:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().warningHollowIcon)
             self.headerLabel.text = "Maximum Tag Reached!"
             self.subHeaderLabel.text = "You can tag maximum 20 kwiks user in your video."
             self.confirmationButton.setTitle("Continue", for: .normal)
             
-        case .LargeImage:
+        case .largeImage:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().warningHollowIcon)
             self.headerLabel.text = "Image is too large."
             self.subHeaderLabel.text = "Image exceeded maximum file size 8MB. Please try again with a smaller image."
             self.confirmationButton.setTitle("Retry", for: .normal)
             
-        case .UserAccountNotFound:
+        case .userAccountNotFound:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().warningHollowIcon)
             self.headerLabel.text = "This user account is not found"
             self.subHeaderLabel.text = "Account of this user may deleted/ suspended/ restricted by the kwiks."
             self.confirmationButton.setTitle("Continue", for: .normal)
             
-        case .LoginFailed:
+        case .loginFailed:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().warningHollowIcon)
             self.headerLabel.text = "Login Failed!"
             self.subHeaderLabel.text = "Your user id/password are not matched. Please try again with correct credential."
             self.confirmationButton.setTitle("Continue", for: .normal)
             
-        case .AccessDenied:
+        case .accessDenied:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().warningHollowIcon)
             self.headerLabel.text = "Access Denied!"
             self.subHeaderLabel.text = "This profile is in private mode. You cann’t access this profile."
             self.confirmationButton.setTitle("Continue", for: .normal)
             
-        case .SoundNotWorking:
+        case .soundNotWorking:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().soundBrokenIcon)
             self.headerLabel.text = "Sound not working!"
             self.subHeaderLabel.text = "Please try with uploading / choosing another sound from list"
             self.confirmationButton.setTitle("Retry", for: .normal)
             
-        case .EmailNotVerified:
+        case .emailNotVerified:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().emailNotVerified)
             self.headerLabel.text = "Email is not verified!"
             self.subHeaderLabel.text = "Please verify your email to keep your account safe."
             self.confirmationButton.setTitle("Verify Now", for: .normal)
             
-        case .EmailVerified:
+        case .emailVerified:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().emailVerified)
             self.headerLabel.text = "Email verified!"
             self.subHeaderLabel.text = "Your email account is verified successfully."
             self.confirmationButton.setTitle("Okay", for: .normal)
             
-        case .VerifyPhoneNumber:
+        case .verifyPhoneNumber:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().phoneNotVerified)
             self.headerLabel.text = "Verify Phone Number!"
             self.subHeaderLabel.text = "Please verify your email to keep your account safe."
             self.confirmationButton.setTitle("Verify Now", for: .normal)
             
-        case .PhoneNumberVerified:
+        case .phoneNumberVerified:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().phoneVerified)
             self.headerLabel.text = "Phone number verified!"
             self.subHeaderLabel.text = "Your phone number  is verified successfully."
             self.confirmationButton.setTitle("Okay", for: .normal)
             
-        case .IncorrectPassword:
+        case .incorrectPassword:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().incorrectPasswordIcon)
             self.headerLabel.text = "Incorrect Password!"
             self.subHeaderLabel.text = "The password is not correct. Please try again."
             self.confirmationButton.setTitle("Continue", for: .normal)
             
-        case .IncorrectUsername:
+        case .incorrectUsername:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().incorrectPasswordIcon)
             self.headerLabel.text = "Incorrect Username"
             self.subHeaderLabel.text = "The username is not correct. Please try again."
             self.confirmationButton.setTitle("Continue", for: .normal)
             
-        case .FailedTransaction:
+        case .failedTransaction:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().hardFailIcon)
             self.headerLabel.text = "Your transaction has failed."
             self.subHeaderLabel.text = "Your payment request was declined by your bank. Please try again or use a different payment method to complete the payment."
             self.confirmationButton.setTitle("Continue", for: .normal)
             
-        case .CardNotSupported:
+        case .cardNotSupported:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().cardNotSupported)
             self.headerLabel.text = "Card Not Supported!"
             self.subHeaderLabel.text = "This card is not supported. Please try using MasterCard, Visa, Amex, Mestro."
             self.confirmationButton.setTitle("Continue", for: .normal)
             
-        case .InsufficientBalanceHard:
+        case .insufficientBalanceHard:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().hardFailIcon)
             self.headerLabel.text = "Insufficient Balance!"
             self.subHeaderLabel.text = "You don’t have enough balance to boost your video. Add balance to your wallet and then try again."
             self.confirmationButton.setTitle("Continue", for: .normal)
             
-        case .InsufficientBalanceLight:
+        case .insufficientBalanceLight:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().moneyWalletIcon)
             self.headerLabel.text = "Insufficient Balance!"
             self.subHeaderLabel.text = "You don’t have enough balance to boost your video. Add balance to your wallet and then try again."
             self.confirmationButton.setTitle("Continue", for: .normal)
             
-        case .PaymentDeclined:
+        case .paymentDeclined:
             
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().moneyWalletIcon)
             self.headerLabel.text = "Payment Declined!"
             self.subHeaderLabel.text = "Your transaction has declined by your card issuer bank. Please contact with your bank or try using another card."
             self.confirmationButton.setTitle("Continue", for: .normal)
             
-        case .LoginToAccess:
+        case .loginToAccess:
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().warningHollowIcon)
             self.headerLabel.text = "Login to access!"
             self.subHeaderLabel.text = "You must need to login to access all features"
@@ -354,7 +354,7 @@ public class KwiksSystemPopups : NSObject {
             self.presentPopup()
 
         } else {
-            print("🔴 COCOAPOD ERROR: NIL - LET KWIKS DEV LIBRARY MAGICIAN KNOW - SERIAL (64574)")
+            Print().dynamicPrint(message: "🔴 COCOAPOD ERROR: NIL - LET KWIKS DEV LIBRARY MAGICIAN KNOW - SERIAL (64574)")
         }
     }
     
@@ -383,7 +383,7 @@ public class KwiksSystemPopups : NSObject {
             self.confirmationButton.bottomAnchor.constraint(equalTo: self.dynamicPopUpContainer.bottomAnchor, constant: -24).isActive = true
             self.confirmationButton.leftAnchor.constraint(equalTo: self.dynamicPopUpContainer.leftAnchor, constant: 27).isActive = true
             self.confirmationButton.rightAnchor.constraint(equalTo: self.dynamicPopUpContainer.rightAnchor, constant: -27).isActive = true
-            self.confirmationButton.heightAnchor.constraint(equalToConstant: 60).isActive = true
+            self.confirmationButton.heightAnchor.constraint(equalToConstant: 50).isActive = true
             
             self.subHeaderLabel.topAnchor.constraint(equalTo: self.headerLabel.bottomAnchor, constant: 16).isActive = true
             self.subHeaderLabel.leftAnchor.constraint(equalTo: self.dynamicPopUpContainer.leftAnchor, constant: 24).isActive = true
@@ -428,101 +428,116 @@ public class KwiksSystemPopups : NSObject {
 
         switch popupType {
             
-        case .UpdateKwiks://product page
-            self.dynamicPopUpContainer.openUrl(passedUrlString: "https://www.google.com")
+        case .updateKwiks://product page
+            self.dynamicPopUpContainer.openUrl(passedUrlString: URLKit().product_page_url)
             self.perform(#selector(self.dismiss), with: nil, afterDelay: 0.75)
             
-        case .AgeRestriction://close
+        case .ageRestriction://close
             self.dismiss()
             
-        case .SendingFailed://close
+        case .sendingFailed://close
             self.dismiss()
             
-        case .UploadFailed://close
+        case .uploadFailed://close
             self.dismiss()
             
-        case .DownloadFailed://close
+        case .downloadFailed://close
             self.dismiss()
             
-        case .VerificationFailed://close
+        case .verificationFailed://close
             self.dismiss()
             
-        case .VideoResolutionLow://close
+        case .videoResolutionLow://close
             self.dismiss()
             
-        case .FileNotSupported://close
+        case .fileNotSupported://close
             self.dismiss()
             
-        case .VideoNotSupported://close
+        case .videoNotSupported://close
             self.dismiss()
             
-        case .UnknownError://close
+        case .unknownError://close
             self.dismiss()
             
-        case .MaximumPostsReached://close
+        case .maximumPostsReached://close
             self.dismiss()
             
-        case .AccountRestricted://close
+        case .accountRestricted://close
             self.dismiss()
             
-        case .MaxTagReached://close
+        case .maxTagReached://close
             self.dismiss()
             
-        case .LargeImage://close
+        case .largeImage://close
             self.dismiss()
             
-        case .UserAccountNotFound://close
+        case .userAccountNotFound://close
             self.dismiss()
             
-        case .LoginFailed://close
+        case .loginFailed://close
             self.dismiss()
             
-        case .AccessDenied://close
+        case .accessDenied://close
             self.dismiss()
             
-        case .SoundNotWorking://close
+        case .soundNotWorking://close
             self.dismiss()
             
-        case .EmailNotVerified://close
+        case .emailNotVerified://close
             self.dismiss()
             
-        case .EmailVerified://close
+        case .emailVerified://close
             self.dismiss()
             
-        case .VerifyPhoneNumber://close
+        case .verifyPhoneNumber://close
             self.dismiss()
             
-        case .PhoneNumberVerified://close
+        case .phoneNumberVerified://close
             self.dismiss()
             
-        case .IncorrectPassword://close
+        case .incorrectPassword://close
             self.dismiss()
             
-        case .IncorrectUsername://close
+        case .incorrectUsername://close
             self.dismiss()
             
-        case .FailedTransaction://close
+        case .failedTransaction://close
             self.dismiss()
             
-        case .CardNotSupported://close
+        case .cardNotSupported://close
             self.dismiss()
             
-        case .InsufficientBalanceHard://close
+        case .insufficientBalanceHard://close
             self.dismiss()
             
-        case .InsufficientBalanceLight://close
+        case .insufficientBalanceLight://close
             self.dismiss()
             
-        case .PaymentDeclined://close
+        case .paymentDeclined://close
             self.dismiss()
             
-        case .LoginToAccess://close
+        case .loginToAccess://close
             self.dismiss()
             
-        case .PermissionNeeded:
+        case .permissionNeeded:
+            
+            //gets rid of the popup
             self.perform(#selector(self.dismiss), with: nil, afterDelay: 0.75)
+            
+            //checks for settings
+            guard let settingsUrl = URL(string: UIApplication.openSettingsURLString) else {
+                return
+            }
+            
+            //if can, settings will be opened
+            if UIApplication.shared.canOpenURL(settingsUrl) {
+                UIApplication.shared.open(settingsUrl, completionHandler: { (success) in
+                    Print().dynamicPrint(message: "🟢 SETTINGS SUCCESS")
+                })
+            }
 
-        default: debugPrint("defaults for popup selector")
+        default: Print().dynamicPrint(message: "🔴 DEFAULT SWITCH FOR POPUP TYPE DECISION")
+
         }
     }
     
@@ -536,6 +551,7 @@ public class KwiksSystemPopups : NSObject {
                 self.dynamicPopUpContainer.frame = CGRect(x: 0, y: self.screenHeight, width: self.screenWidth - 80, height: self.popupFinalHeight)
                 self.dynamicPopUpContainer.center.x = root.view.center.x
             }
+            Print().dynamicPrint(message: "🟢 POPUP DISMISSED")
         }
     }
     

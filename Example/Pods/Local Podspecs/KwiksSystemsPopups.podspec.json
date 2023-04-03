@@ -1,6 +1,6 @@
 {
   "name": "KwiksSystemsPopups",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "KwiksSystemsPopups was designed to handle all internal card style popups in the Kwiks iOS Application.",
   "description": "'KwiksSystemsPopups was designed to help support light frontend and easy code management solutions. The goal of this pod is to provide a one liner popup that switches the PopupType enum.'",
   "homepage": "https://github.com/26388491/KwiksSystemsPopups",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/NoImpactNoIdea/KwiksSystemsPopups.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "15.0"

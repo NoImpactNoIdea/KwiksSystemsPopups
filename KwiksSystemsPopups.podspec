@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'KwiksSystemsPopups'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'KwiksSystemsPopups was designed to handle all internal card style popups in the Kwiks iOS Application.'
 
   s.description      = <<-DESC

@@ -7,6 +7,11 @@
 
 import Foundation
 
+struct URLKit {
+    static let shared = URLKit()
+    let product_page_url = "https://www.google.com"
+}
+
 //bundled fonts
 struct FontKit {
     
@@ -56,6 +61,29 @@ struct ImageKit {
     let warningHollowIcon = "warning_hollow_icon"
     let soundBrokenIcon = "sound_broken_icon"
     let phoneNotVerified = "phone_not_verified"
+}
+
+//only print if in debig mode, no need to waste precious CPU time in production
+struct Print {
+    
+    func dynamicPrint(message: String) {
+        
+        if EnvironemntModeHelper.isCurrentEnvironmentDebug() {
+            debugPrint("\(message)")
+        }
+    }
+}
+
+class EnvironemntModeHelper : NSObject {
+    
+    static func isCurrentEnvironmentDebug() -> Bool {
+        
+        #if DEBUG
+        return true
+        #else
+        return false
+        #endif
+    }
 }
 
 //OPENS URLS AS STRINGS

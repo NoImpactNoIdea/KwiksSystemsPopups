@@ -44,7 +44,7 @@ class ViewController: UIViewController {
     
     @objc func runPopup() {
         
-        alert = KwiksSystemPopups(presentingViewController: self, popupType: .EmailVerified)
+        alert = KwiksSystemPopups(presentingViewController: self, popupType: .permissionNeeded)
         alert.engagePopup()
     }
 
